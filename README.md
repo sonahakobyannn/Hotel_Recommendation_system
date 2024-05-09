@@ -8,6 +8,7 @@ Ensure you have Python 3.8 or higher installed on your machine.
 2. Clone the Repository
 Start by cloning the repository to your local machine
 git clone https://github.com/sonahakobyannn/Hotel_Recommendation_system.git
+
 cd Hotel_Recommendation_system
 3. Install Dependencies
 This project relies on several Python libraries. Install them using pip:
