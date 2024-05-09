@@ -15,6 +15,8 @@ This project relies on several Python libraries. Install them using pip:
 pip install -r requirements.txt
 
 # Usage
-1. Run the Processing.py file to read the initial data, clear unnecessary columns, group the comments by hotel id, truncate the data up to 10 hotels and get the final dataframe that model will eventually work on.
+1. Run the data_preparation.py file to read the initial data, clear unnecessary columns, group the top 10 comments by hotel id, truncate the data up to 10 hotels and get the final dataframe that model will eventually work on.
 2. Run chroma.py file to create database containing the ids of hotels and each of their openai embeddings based on the textual data
+3. Run in the command line "streamlit model_and_app.py" to see the web representation
+4. enter the prompt and get your results!
 
